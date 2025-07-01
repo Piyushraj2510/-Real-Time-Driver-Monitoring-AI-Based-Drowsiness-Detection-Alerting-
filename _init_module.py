@@ -1,7 +1,7 @@
 # modules/__init__.py
 
 """
-Drowsiness Detection Modules Package
+Drowsiness Detection Modules Package Description
 
 This package includes modular components for calculating:
 - Eye Aspect Ratio (EAR)

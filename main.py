@@ -3,6 +3,10 @@
 # ---------------------- IMPORTS ----------------------
 # Standard libraries
 import cv2
+import streamlit as st
+
+st.write("OpenCV Version:", cv2.__version__)
+
 import numpy as np
 import pygame
 from datetime import datetime
@@ -146,3 +150,4 @@ finally:
     print(f"\n[INFO] Session Duration: {duration:.2f} seconds")
     print(f"[INFO] Total Frames Processed: {frame_count}")
     print(f"[INFO] Logged Events: {len(state['log'])}")
+

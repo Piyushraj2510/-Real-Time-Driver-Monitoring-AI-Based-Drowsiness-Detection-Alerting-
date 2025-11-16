@@ -1,4 +1,6 @@
-opencv-python
+streamlit
+streamlit-webrtc
+opencv-python-headless
 mediapipe
-pygame
 numpy
+av
